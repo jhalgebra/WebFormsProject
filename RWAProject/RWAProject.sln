@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RWAProject.WebFormsClient", "RWAProject.WebFormsClient\RWAProject.WebFormsClient.csproj", "{8E9DCE41-349F-4FD1-80FB-A960BFDD408C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RWAProject.DAL", "RWAProject.DAL\RWAProject.DAL.csproj", "{1DA10AB7-21F4-4EC2-8094-4CF9F9838642}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E9DCE41-349F-4FD1-80FB-A960BFDD408C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E9DCE41-349F-4FD1-80FB-A960BFDD408C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E9DCE41-349F-4FD1-80FB-A960BFDD408C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E9DCE41-349F-4FD1-80FB-A960BFDD408C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DA10AB7-21F4-4EC2-8094-4CF9F9838642}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DA10AB7-21F4-4EC2-8094-4CF9F9838642}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DA10AB7-21F4-4EC2-8094-4CF9F9838642}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DA10AB7-21F4-4EC2-8094-4CF9F9838642}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1EC821CF-5054-4E4E-8649-A665DFA26CD1}
+	EndGlobalSection
+EndGlobal

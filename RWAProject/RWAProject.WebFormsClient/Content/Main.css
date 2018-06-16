@@ -1,0 +1,147 @@
+﻿*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: #eee;
+}
+
+.custom-container {
+    padding: 10px 20px 20px;
+    box-shadow: 1.5px 1.5px 1px 2px #ccc;
+    background-color: white;
+}
+
+h2{
+    margin: 0;
+    font-weight: lighter;
+}
+
+.error {
+    color: #e00000;
+}
+
+.big{
+    font-size: 2em;
+}
+
+.floatingValidator{
+    float: right;
+    position: relative;
+    left: 10px;
+    top: -25px;
+    height: 3px;
+}
+
+.textBoxLabel{
+    font-weight: bold;
+    margin: 0;
+}
+
+.editUserBorder {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.editUser {
+    padding: 5px;
+}
+
+.editUser table{
+    width: 100%;
+}
+
+.editUser th{
+    padding-right: 10px;
+}
+
+.btn-warning{
+    color: white;
+}
+
+nav > ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+
+nav > ul > li{
+    display: inline-block;
+    margin: 5px 0 !important;
+}
+
+nav > ul > li > a{
+    width: 175px;
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+    border: 1.5px solid #ccc !important;
+}
+
+nav > ul > li > a:hover {
+    background: #ddd;
+    color: black;
+    border: 1.5px solid #aaa !important;
+}
+
+.repo {
+    color: white;
+    background: #888;
+    border-radius: 5px;
+    width: max-content;
+    padding: 2px 5px;
+    margin: 10px auto;
+    font-weight: bold;
+}
+
+.centered {
+    clear: both;
+    width: max-content !important;
+    margin: auto !important;
+    float: none !important;
+}
+
+.auto100{
+    margin: 100px auto;
+}
+
+.centerScreen{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: max-content;
+    height: max-content;
+}
+
+.bottomBorder {
+    border: 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.autoWidth{
+    width: max-content; 
+}
+
+[type=checkbox]{
+    margin-right: 5px !important;
+}
+
+[type=checkbox] + label{
+    vertical-align: middle;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+select[disabled=disabled]{
+    cursor: not-allowed;
+}
+
+a{
+    cursor: pointer;
+}
